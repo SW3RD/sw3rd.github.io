@@ -7,11 +7,19 @@
 	list-style-type: none;
 }
 
-body{
-	background-color: #10529f;
-	
+#particles-js{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  top: 0px;
+  left: 0px;
+  background-color: #10529f;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
-
 #mainbox{
 	background-color:#E9E9E9;
 	width: 300px;
